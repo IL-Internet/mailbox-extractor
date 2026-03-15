@@ -1,15 +1,19 @@
-# mbox reader
+# Mailbox Extractor
+
+
+*Offline use of .mbox files*
+
 
 A single-file, zero-dependency browser tool for reading `.mbox` email archive files. Drop it in a browser, open a file, read your emails. Nothing is uploaded anywhere — all parsing happens locally on your machine.
 
-## Usage
+## Usage 
 
-1. Download `mbox-extractor.html`
-2. Open it in any modern browser (Chrome, Firefox, Safari, Edge)
+1. Download the `index.html` to your own computer
+2. Open it in any modern browser (Chrome, Firefox, Safari, Edge) **there is NO need for a web connection!**
 3. Click **Open .mbox** and select your archive file
 4. Browse, search, and read
 
-No server. No install. No data leaves your computer.
+No server. No install. **No data leaves your computer.**
 
 ## Features
 
@@ -45,8 +49,4 @@ No server. No install. No data leaves your computer.
 
 ## File format
 
-Expects standard mbox format where each message begins with a `From ` envelope line. Compatible with exports from Gmail (Google Takeout), Thunderbird, Apple Mail, Outlook, and most Unix mail clients.
-
-## License
-
-MIT
+Expects standard .mbox format where each message begins with a `From ` envelope line. Compatible with exports from Gmail (Google Takeout), Thunderbird, Apple Mail, Outlook, and most Unix mail clients.
